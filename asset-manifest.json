@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/shahali007/grads-give/static/css/main.f89ba12c.css",
+    "main.js": "/shahali007/grads-give/static/js/main.870c513d.js",
+    "static/js/787.8a030c13.chunk.js": "/shahali007/grads-give/static/js/787.8a030c13.chunk.js",
+    "static/media/what_we_do.png": "/shahali007/grads-give/static/media/what_we_do.c4888058efd1214c419c.png",
+    "static/media/food-relief.png": "/shahali007/grads-give/static/media/food-relief.480c3757fda5f5eec695.png",
+    "static/media/mental-health-relief.png": "/shahali007/grads-give/static/media/mental-health-relief.47fd6cb0ab04b891b11d.png",
+    "static/media/safety-relief.png": "/shahali007/grads-give/static/media/safety-relief.b7ce64e46ea20fee3838.png",
+    "static/media/Photo.png": "/shahali007/grads-give/static/media/Photo.13184f9e59555461eda7.png",
+    "static/media/leader-image.png": "/shahali007/grads-give/static/media/leader-image.d7602f55a631b05ec91d.png",
+    "static/media/faqLogo.png": "/shahali007/grads-give/static/media/faqLogo.5b7ab75db948dafdbe4b.png",
+    "static/media/Rectangle1.png": "/shahali007/grads-give/static/media/Rectangle1.eb7f5bfad630ad2ab389.png",
+    "static/media/slick.svg": "/shahali007/grads-give/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/shahali007/grads-give/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/shahali007/grads-give/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/shahali007/grads-give/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/shahali007/grads-give/index.html",
+    "main.f89ba12c.css.map": "/shahali007/grads-give/static/css/main.f89ba12c.css.map",
+    "main.870c513d.js.map": "/shahali007/grads-give/static/js/main.870c513d.js.map",
+    "787.8a030c13.chunk.js.map": "/shahali007/grads-give/static/js/787.8a030c13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f89ba12c.css",
+    "static/js/main.870c513d.js"
+  ]
+}

@@ -1,13 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.slick-prev:before {
+    content: "" !important;
+}
+
+.slick-next:before {
+    content: "" !important;
+}
+
+.slick-prev {
+    top: 350px !important;
+    left: 368px !important;
+    z-index: 10;
+}
+
+.slick-next {
+    top: 350px !important;
+    left: 420px !important;
+    z-index: 10;
+}
+
+.mission-card:hover {
+    background-color: #D6BB4E;
+}
+
+.mission-card:hover .mission-icon-div {
+    background-color: white;
+}
+
+.mission-card:hover .mission-icon-div svg {
+    filter: invert(26%) sepia(8%) saturate(3566%) hue-rotate(337deg) brightness(99%) contrast(91%);
+}
+
+.company-work-icon-div {
+    background-color: #F6F2DF;
+}
+
+.company-work:hover .company-work-icon-div {
+    background-color: white;
+}
+
+.company-work:hover .company-work-donate-now-button {
+    background-color: white;
+}
+
+.accordion__button {
+    background-color: white !important;
+}
+
+.accordion__panel {
+    background-color: #F6F2DF !important;
+}
+
+.accordion__button[aria-expanded='true'],
+.accordion__button[aria-selected='true'] {
+    background-color: #F6F2DF !important;
+}
+
+.contact-us {
+    background-color: white;
+}
+
+.contact-us-icon {
+    background-color: #F4F9F8;
+}
+
+.contact-us:hover {
+    background-color: #D6BB4E;
+}
+
+.contact-us:hover .contact-us-icon {
+    background-color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z' fill='%23C18742'/%3E%3Cpath d='M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z' fill='%23C18742'/%3E%3C/svg%3E") no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    position: absolute;
+    right: 12px;
+}
+
+.react-responsive-modal-modal {
+    padding: 0 !important;
+    max-width: 1024px !important;
+}
+
+.process-arrow{
+    left:100%;
+}
+
+@media screen and (min-width: 1280px) {
+    .one-to-two {
+        left: 200px
+    }
+
+    .two-to-three {
+        left: 515px
+    }
+
+    .three-to-four {
+        left: 840px
+    }
+}
+.slick-prev.leader-slick-left{
+    left:0px!important;
+}
+.slick-next.leader-slick-next{
+    right: 0px!important;
+    left: auto!important;
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1370px) {
+    .one-to-two {
+        left: 180px
+    }
+
+    .two-to-three {
+        left: 480px
+    }
+
+    .three-to-four {
+        left: 780px
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .one-to-two {
+        left: 300px
+    }
+
+    .two-to-three {
+        left: 750px
+    }
+
+    .three-to-four {
+        left: 1210px
+    }
 }

@@ -48,7 +48,7 @@ const ThankYouModal = ({ open, onCloseModal }) => {
                 </div>
 
                 <div style={{ height: 586, width: 512 }}>
-                    <img src={ModalPhoto} className="h-full w-full " />
+                    <img src={ModalPhoto} alt="ModalPhoto" className="h-full w-full " />
                 </div>
             </div>
         </Modal>

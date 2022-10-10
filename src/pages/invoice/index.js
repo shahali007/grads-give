@@ -22,7 +22,7 @@ const Invoice = () => {
                 </div>
 
                 <div className='mt-10'>
-                    <img src={ThankYouLogo} />
+                    <img src={ThankYouLogo} alt="ThankYou"/>
                 </div>
 
                 <div className='mt-6'>

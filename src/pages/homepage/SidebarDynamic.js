@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { ImCross } from "react-icons/im";
 import { Link } from "react-router-dom";
 

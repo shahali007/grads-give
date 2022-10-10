@@ -36,7 +36,7 @@ const CompanyFAQ = () => {
                         <p className="text-3.5xl lg:text-5xl font-bold leading-16">Frequently Asked Questions</p>
                         <div className="grid grid-cols-1 sm:grid-cols-5 mt-12 gap-4">
                             <div className="sm:col-span-2">
-                                <img src={FAQLogo} className="w-full" />
+                                <img src={FAQLogo} className="w-full" alt="FAQ"/>
                             </div>
                             <div className="sm:col-span-3">
                                 <Accordion preExpanded={[0]}>

@@ -90,13 +90,13 @@ const Footer = () => {
                 <p className='font-bold leading-6 mb-6'>Recent Post</p>
                 <div className='flex'>
                     <div className='w-12 h-12 shrink-0'>
-                        <img src={RecentPost1} className="w-full h-full" />
+                        <img src={RecentPost1} className="w-full h-full" alt="RecentPost"/>
                     </div>
                     <p className='leading-8 ml-4'>The EU needs to hold the financial sector in global deforestation</p>
                 </div>
                 <div className='flex mt-6'>
                     <div className='w-12 h-12 shrink-0'>
-                        <img src={RecentPost2} className="w-full h-full" />
+                        <img src={RecentPost2} className="w-full h-full" alt="RecentPost"/>
                     </div>
                     <p className='leading-8 ml-4'>The EU needs to hold the financial sector in global deforestation</p>
                 </div>

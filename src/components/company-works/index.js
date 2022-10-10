@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SectionBackground from "./what_we_do.png";
 
 const CompanyWorks = () => {
     const works = [
@@ -107,24 +108,22 @@ const CompanyWorks = () => {
         },
     ];
     return (
-        <div className="pt-8" id="goals">
-            <div className="bg-lightBlueSectionBackground">
-                <div className="container mx-auto">
-                    <div className="px-4 min-h-152 py-4 lg:pt-20 lg:pb-12 bg-lightBlueSectionBackground">
-                        <div className="flex justify-center">
-                            <p className="text-3.5xl lg:text-5xl font-bold lg:leading-16 text-center w-181.75">What we are doing to make the changes</p>
-                        </div>
-                        <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 gap-8 lg:flex lg:justify-between mt-12">
-                            {works.map((work, index) => (
-                                <div className="w-full lg:w-100 h-68 bg-white hover:bg-primaryColor rounded-2xl p-8 flex flex-col items-center company-work" key={index}>
-                                    <div className="w-20 h-20 rounded-2xl flex justify-center items-center company-work-icon-div">{work.icon}</div>
-                                    <p className="text-2xl font-bold leading-8 mt-6">{work.heading}</p>
-                                    <Link to="/donation" className="w-full h-12 flex justify-center items-center mt-6 border-2 border-primaryColor rounded-lg company-work-donate-now-button">
-                                        <p className="text-xm font-semibold leading-6">Donate Now</p>
-                                    </Link>
-                                </div>
-                            ))}
-                        </div>
+        <div className="py-8" id="goals" style={{ background: `url(${SectionBackground})`, backgroundSize:'cover' }}>
+            <div className="container mx-auto">
+                <div className="px-4 min-h-152 py-4 lg:pt-20 lg:pb-12">
+                    <div className="flex justify-center">
+                        <p className="text-3.5xl lg:text-5xl text-white font-bold lg:leading-16 text-center w-181.75">What we are doing to make the changes</p>
+                    </div>
+                    <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 gap-8 lg:flex lg:justify-between mt-12">
+                        {works.map((work, index) => (
+                            <div className="w-full lg:w-100 h-68 bg-white hover:bg-primaryColor rounded-2xl p-8 flex flex-col items-center company-work" key={index}>
+                                <div className="w-20 h-20 rounded-2xl flex justify-center items-center company-work-icon-div">{work.icon}</div>
+                                <p className="text-2xl font-bold leading-8 mt-6">{work.heading}</p>
+                                <Link to="/donation" className="w-full h-12 flex justify-center items-center mt-6 border-2 border-primaryColor rounded-lg company-work-donate-now-button">
+                                    <p className="text-xm font-semibold leading-6">Donate Now</p>
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
